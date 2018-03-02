@@ -1,0 +1,28 @@
+---
+- name: Tower Test
+  hosts: all
+#  vars:
+#    my_param1: param1
+#    my_param2: param2
+#    my_param3: param3
+#    my_param4: param4
+  tasks:
+
+    - name: Current date
+      shell: date "+DATE- %Y-%m-%d%nTime- %H:%M:%S"
+
+#    - name: Add host {{ inventory_hostname }} to HAProxy
+#      lineinfile: dest=/etc/motd line='{{ inventory_hostname }}'
+#
+#    - name: Test Parameters.
+#      lineinfile: dest=/etc/motd line='{{ my_param1 }}'
+#
+#    - name: Test Parameters.
+#      lineinfile: dest=/etc/motd line='{{ my_param2 }}'
+#
+#    - name: Test Parameters.
+#      lineinfile: dest=/etc/motd line='{{ my_param3 }}'
+#
+#    - name: Test Parameters.
+#      lineinfile: dest=/etc/motd line='{{ my_param4 }}'
+
